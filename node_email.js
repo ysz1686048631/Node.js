@@ -6,14 +6,14 @@ const nodemailer = require("nodemailer");
     port: 465,     //端口号  
     secure: true, // 
     auth: {
-      user: '1550832053@qq.com', // 发送方邮箱
+      user: 'xxxxxxxx@qq.com', // 发送方邮箱
       pass: 'onwdcosvmuspbaeb' // 在发送方的邮箱获取smtp验证码
     }
   });
   // 邮件对象
   let sendObj = {
     from: '"掘金创作者👻" <1550832053@qq.com>', // 发送者
-    to: "1550832053@qq.com, 1925357372@qq.com,27814314@qq.com,2830427188@qq.com,907653039@qq.com,932348038@qq.com", // 接收者（可群发，群发就逗号分割就可以）
+    to: "xxxxxxxx@qq.com, xxxxxxxx@qq.com", // 接收者（可群发，群发就逗号分割就可以）
     subject: "来自掘金的邀请", // 
     text: "掘金创作者", // 发送的内容
     html: `<b>掘金创作者邀请你体验掘金网站，本网站于2020年3月28日完成部署，本网站操作简单，欢迎体验！</b>
